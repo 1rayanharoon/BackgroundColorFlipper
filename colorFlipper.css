@@ -1,0 +1,116 @@
+/* body{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar
+{
+    height: 80px;
+    display: flex;
+    align-content: space-between;
+    background: rgb(255, 255, 255);
+}
+h4{
+    width: 50%;
+    text-align: right;
+    padding-top: 3px;
+}
+.navbar li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: #8998d0;
+}
+
+p{
+    border-radius: 7px;
+    margin-left: 5em;
+    margin-right: 3em;
+    color: white;
+    font-size: 60px;
+    margin-top: 3em;
+    text-align: center;
+    background-color: rgb(40, 36, 36);
+}
+button{
+    border: 3px solid rgb(27, 27, 27);
+    padding: 10px 10px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    border-radius: 7px;
+    font-size: 18px;
+    background-color: #8998d0;
+}
+button:hover{
+    transition: 1s;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    cursor: pointer;
+} */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 10px;
+    color: black;
+}
+.navbar a:hover{
+    color: #8998d0;
+}
+.container
+{
+    background-color: #8998d0;
+    max-width:100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.container p{
+    border-radius: 7px;
+    font-size: 60px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.container button{
+    border: 3px solid rgb(27, 27, 27);
+    padding: 10px 10px;
+    border-radius: 7px;
+    font-size: 18px;
+    background-color: transparent;
+}
+button:hover{
+    transition: 1s;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    cursor: pointer;
+}
